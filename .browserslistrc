@@ -1,0 +1,13 @@
+# Modern browsers only - no polyfills needed for ES2022+ features
+# Updated to support only very recent browsers to avoid unnecessary transpilation
+[production]
+chrome >= 120
+firefox >= 120
+safari >= 17
+edge >= 120
+
+[development]
+last 1 chrome version
+last 1 firefox version
+last 1 safari version
+
