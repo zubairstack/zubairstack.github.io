@@ -14,9 +14,9 @@ export const profile = {
   whatsapp: `+${WHATSAPP_NUMBER}`,
   whatsappMessage,
   whatsappUrl: `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(whatsappMessage)}`,
-  github: "https://github.com/izubaire",
+  github: "https://github.com/zubairstack",
   linkedin: "https://linkedin.com/in/zubaire",
-  siteUrl: "https://izubaire.github.io",
+  siteUrl: "https://zubairstack.github.io",
 } as const;
 
 export const about = {

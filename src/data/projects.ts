@@ -71,7 +71,7 @@ export const projects: Project[] = [
     title: "Cryptoket",
     description: "Full-featured NFT marketplace with wallet integration and on-chain listings.",
     stack: ["React", "Solidity", "Ether.js"],
-    href: "https://github.com/izubaire/Cryptoket-NFT-Marketplace",
+    href: "https://github.com/zubairstack/Cryptoket-NFT-Marketplace",
     external: true,
   },
   {
@@ -80,7 +80,7 @@ export const projects: Project[] = [
     description:
       "Dynamic form builder with EJS templating for rapid client-facing form generation.",
     stack: ["Node.js", "EJS"],
-    href: "https://github.com/izubaire/form-builder",
+    href: "https://github.com/zubairstack/form-builder",
     external: true,
   },
 ];

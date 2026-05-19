@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://izubaire.github.io
+Host: https://zubairstack.github.io
 
 # Sitemaps
-Sitemap: https://izubaire.github.io/sitemap.xml
+Sitemap: https://zubairstack.github.io/sitemap.xml

@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://izubaire.github.io',
+  siteUrl: 'https://zubairstack.github.io',
   generateRobotsTxt: true,
   robotsTxtOptions: {
     policies: [

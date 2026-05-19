@@ -33,7 +33,7 @@ export function Contact() {
             <ContactLink
               label="GitHub"
               href={profile.github}
-              value="github.com/izubaire"
+              value="github.com/zubairstack"
             />
             <ContactLink
               label="LinkedIn"
