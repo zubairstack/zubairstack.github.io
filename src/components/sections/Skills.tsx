@@ -15,7 +15,7 @@ export function Skills() {
       <div className="container-narrow">
         <SectionHeading
           id="skills"
-          label="04 — Skills"
+          label="04 - Skills"
           title="Technical stack"
           description="Languages, platforms, and domains I work across day to day."
         />

@@ -238,7 +238,7 @@ export default function TechStack3D() {
           style={{ transform: "translateZ(-20px)" }}
         >
           <div className="h-6 bg-[#161b22] border-b border-primary/10 flex items-center px-2">
-            <span className="text-[10px] text-slate-400">terminal — zsh</span>
+            <span className="text-[10px] text-slate-400">terminal - zsh</span>
           </div>
           <div className="p-3 font-mono text-[10px] text-primary-light">
             <p>➜ ~ git push origin master</p>

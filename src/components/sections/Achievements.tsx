@@ -20,7 +20,7 @@ export function Achievements() {
       <div className="container-narrow">
         <SectionHeading
           id="achievements"
-          label="05 — Achievements"
+          label="05 - Achievements"
           title="Notable technical work"
           description="Architecture decisions and systems that moved the needle."
         />

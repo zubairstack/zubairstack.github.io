@@ -15,7 +15,7 @@ export function Projects() {
       <div className="container-narrow">
         <SectionHeading
           id="projects"
-          label="03 — Projects"
+          label="03 - Projects"
           title="Selected work"
           description="Production systems across Web3, quant finance, civic tech, and developer tooling."
         />

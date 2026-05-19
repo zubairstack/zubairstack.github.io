@@ -449,7 +449,7 @@ export default function Hero() {
             }}
             className="text-base sm:text-lg md:text-xl text-gray-400 max-w-2xl mb-8 md:mb-10 leading-relaxed max-md:opacity-100! max-md:translate-y-0! max-md:transform-none!"
           >
-            I&apos;m Fabrizio La Rosa — full-stack engineer, code artisan,
+            I&apos;m Muhammad Zubair - full-stack engineer, code artisan,
             digital problem solver. Turning complex problems into elegant,
             user-centric digital experiences.
           </p>

@@ -12,7 +12,7 @@ export function Experience() {
       <div className="container-narrow">
         <SectionHeading
           id="experience"
-          label="02 — Experience"
+          label="02 - Experience"
           title="Career timeline"
           description="From freelance builds to leading engineering orgs across fintech, Web3, and AI."
         />

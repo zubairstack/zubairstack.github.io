@@ -1,24 +1,30 @@
+const WHATSAPP_NUMBER = "923494855565";
+
+export const whatsappMessage =
+  "Hi Zubair, I came across your portfolio and would like to get in touch.";
+
 export const profile = {
   name: "Muhammad Zubair",
   title: "Full Stack AI Engineer & Engineering Lead",
   headline:
     "Full Stack AI Engineer · Engineering Lead · ex-CTO",
   tagline:
-    "5+ years building across fintech, Web3, AI, and enterprise SaaS — from founding engineer to CTO.",
+    "5+ years building across fintech, Web3, AI, and enterprise SaaS - from founding engineer to CTO.",
   email: "m.zobaire@gmail.com",
-  whatsapp: "+923494855565",
-  whatsappUrl: "https://wa.me/923494855565",
+  whatsapp: `+${WHATSAPP_NUMBER}`,
+  whatsappMessage,
+  whatsappUrl: `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(whatsappMessage)}`,
   github: "https://github.com/izubaire",
   linkedin: "https://linkedin.com/in/zubaire",
   siteUrl: "https://izubaire.github.io",
 } as const;
 
 export const about = {
-  bio: `I started as a freelance web developer shipping client projects across React and Node, then moved into full-stack engineering building NFT marketplaces, Django reporting engines, and Docker-based CI/CD pipelines. Today I lead engineering teams across fintech, Web3, AI, and enterprise SaaS — architecting microservices on AWS, driving monorepo migrations, and building streaming SDKs and data pipelines. As founding engineer and later CTO at Blockhouse, I scaled the org from zero to 40+ engineers across full-stack, DevOps, MLOps, and quant research.`,
+  bio: `I started as a freelance web developer shipping client projects across React and Node, then moved into full-stack engineering building NFT marketplaces, Django reporting engines, and Docker-based CI/CD pipelines. Today I lead engineering teams across fintech, Web3, AI, and enterprise SaaS - architecting microservices on AWS, driving monorepo migrations, and building streaming SDKs and data pipelines. As founding engineer and later CTO at Blockhouse, I scaled the org from zero to 40+ engineers across full-stack, DevOps, MLOps, and quant research.`,
   highlight:
     "Managed 40+ engineers and shipped production systems across 4+ industries.",
   education: [
-    "B.Sc. Information Technology — University of Gujrat",
+    "B.Sc. Information Technology - University of Gujrat",
     "DevOps on AWS Specialization",
   ],
 } as const;

@@ -12,7 +12,7 @@ export const achievements: Achievement[] = [
     summary:
       "Avoided third-party SSR costs with bot-aware pre-rendering at the CDN edge.",
     details:
-      "Lambda@Edge intercepts CloudFront requests: bots receive pre-rendered HTML from S3, users get the React app. Each page auto-generates static HTML on publish — no ongoing SSR infrastructure.",
+      "Lambda@Edge intercepts CloudFront requests: bots receive pre-rendered HTML from S3, users get the React app. Each page auto-generates static HTML on publish - no ongoing SSR infrastructure.",
   },
   {
     id: "cto-blockhouse",
@@ -34,7 +34,7 @@ export const achievements: Achievement[] = [
     id: "tee-parryai",
     title: "TEE Architecture for ParryAI",
     summary:
-      "AI agents execute crypto transactions inside AWS Nitro Enclave — keys never leave TEE.",
+      "AI agents execute crypto transactions inside AWS Nitro Enclave - keys never leave TEE.",
     details:
       "Private keys never leave the secure environment. KMS handles rotation. Flow: Chrome extension → Nest.js → Flask → TEE.",
   },

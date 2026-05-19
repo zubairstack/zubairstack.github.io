@@ -12,7 +12,7 @@ export function About() {
       <div className="container-narrow">
         <SectionHeading
           id="about"
-          label="01 — About"
+          label="01 - About"
           title="Building systems that scale"
         />
         <FadeIn>

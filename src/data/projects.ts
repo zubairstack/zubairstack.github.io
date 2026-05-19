@@ -25,7 +25,7 @@ export const projects: Project[] = [
     id: "blockhouse",
     title: "Blockhouse",
     description:
-      "Quant trading infrastructure for asset managers — market data ingestion, backtesting, and execution pipelines.",
+      "Quant trading infrastructure for asset managers - market data ingestion, backtesting, and execution pipelines.",
     stack: [
       "Next.js",
       "Golang",
@@ -42,7 +42,7 @@ export const projects: Project[] = [
     id: "on-foundation",
     title: "On.foundation",
     description:
-      "Q&A platform with SEO via Lambda@Edge — pre-rendered HTML for bots without SSR infrastructure costs.",
+      "Q&A platform with SEO via Lambda@Edge - pre-rendered HTML for bots without SSR infrastructure costs.",
     stack: [
       "React",
       "AWS CloudFront",

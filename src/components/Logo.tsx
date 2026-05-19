@@ -152,7 +152,7 @@ export default function Logo({
       onMouseUp={handlePressEnd}
       onMouseLeave={() => setIsPressed(false)}
       onClick={onIconClick}
-      aria-label="Stackbyte Logo - Fabrizio La Rosa Full Stack Developer"
+      aria-label="Stackbyte Logo - Muhammad Zubair Full Stack Developer"
       role="img"
     >
       <g className="cursor-pointer" style={{ pointerEvents: "all" }}>

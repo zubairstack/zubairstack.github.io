@@ -13,7 +13,7 @@ export function Contact() {
       <div className="container-narrow">
         <SectionHeading
           id="contact"
-          label="06 — Contact"
+          label="06 - Contact"
           title="Let's connect"
           description="Open to engineering leadership roles, consulting, and ambitious technical projects."
         />
