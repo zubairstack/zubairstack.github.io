@@ -10,12 +10,12 @@ export const profile = {
     "Full Stack AI Engineer · Engineering Lead · ex-CTO",
   tagline:
     "5+ years building across fintech, Web3, AI, and enterprise SaaS - from founding engineer to CTO.",
-  email: "m.zobaire@gmail.com",
+  email: "zubairstack@gmail.com",
   whatsapp: `+${WHATSAPP_NUMBER}`,
   whatsappMessage,
   whatsappUrl: `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(whatsappMessage)}`,
   github: "https://github.com/zubairstack",
-  linkedin: "https://linkedin.com/in/zubaire",
+  linkedin: "https://linkedin.com/in/zubairstack",
   siteUrl: "https://zubairstack.github.io",
 } as const;
 

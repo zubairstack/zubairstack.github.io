@@ -38,7 +38,7 @@ export function Contact() {
             <ContactLink
               label="LinkedIn"
               href={profile.linkedin}
-              value="linkedin.com/in/zubaire"
+              value="linkedin.com/in/zubairstack"
             />
           </ul>
 
