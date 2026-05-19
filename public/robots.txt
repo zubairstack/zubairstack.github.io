@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://stackbyte.dev
+Host: https://izubaire.github.io
 
 # Sitemaps
-Sitemap: https://stackbyte.dev/sitemap.xml
+Sitemap: https://izubaire.github.io/sitemap.xml
