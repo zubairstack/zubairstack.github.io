@@ -1,15 +1,16 @@
 export const profile = {
   name: "Muhammad Zubair",
-  title: "Tech Lead & Engineering Manager",
+  title: "Full Stack AI Engineer & Engineering Lead",
   headline:
-    "Tech Lead / Engineering Manager / ex-CTO",
+    "Full Stack AI Engineer · Engineering Lead · ex-CTO",
   tagline:
     "5+ years building across fintech, Web3, AI, and enterprise SaaS — from founding engineer to CTO.",
   email: "m.zobaire@gmail.com",
-  location: "Rawalpindi, Pakistan",
+  whatsapp: "+923494855565",
+  whatsappUrl: "https://wa.me/923494855565",
   github: "https://github.com/izubaire",
   linkedin: "https://linkedin.com/in/zubaire",
-  siteUrl: "https://zubaire.dev",
+  siteUrl: "https://izubaire.github.io",
 } as const;
 
 export const about = {

@@ -25,19 +25,28 @@ export function Projects() {
               <li>
                 <Card className="group flex h-full flex-col">
                   <h3 className="text-lg font-semibold text-foreground group-hover:text-accent transition-colors">
-                    <a
-                      href={project.href}
-                      target={project.external ? "_blank" : undefined}
-                      rel={project.external ? "noopener noreferrer" : undefined}
-                      className="focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent rounded"
-                    >
-                      {project.title}
-                      {project.external ? (
-                        <span className="ml-1 inline-block text-accent" aria-hidden>
-                          ↗
-                        </span>
-                      ) : null}
-                    </a>
+                    {project.href ? (
+                      <a
+                        href={project.href}
+                        target={project.external ? "_blank" : undefined}
+                        rel={
+                          project.external ? "noopener noreferrer" : undefined
+                        }
+                        className="focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent rounded"
+                      >
+                        {project.title}
+                        {project.external ? (
+                          <span
+                            className="ml-1 inline-block text-accent"
+                            aria-hidden
+                          >
+                            ↗
+                          </span>
+                        ) : null}
+                      </a>
+                    ) : (
+                      <span>{project.title}</span>
+                    )}
                   </h3>
                   <p className="mt-3 flex-1 text-sm text-muted leading-relaxed">
                     {project.description}

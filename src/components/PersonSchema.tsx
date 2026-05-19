@@ -8,11 +8,6 @@ export function PersonSchema() {
     jobTitle: profile.title,
     email: profile.email,
     url: profile.siteUrl,
-    address: {
-      "@type": "PostalAddress",
-      addressLocality: "Rawalpindi",
-      addressCountry: "PK",
-    },
     sameAs: [profile.github, profile.linkedin],
   };
 

@@ -21,12 +21,6 @@ export function Hero() {
 
       <div className="relative z-10 mx-auto w-full max-w-5xl">
         <FadeIn>
-          <p className="mb-4 font-mono text-sm text-accent">
-            {profile.location}
-          </p>
-        </FadeIn>
-
-        <FadeIn delay={0.05}>
           <motion.h1
             id="hero-heading"
             className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl md:text-6xl lg:text-7xl"
@@ -55,12 +49,8 @@ export function Hero() {
             <Button href="#projects" variant="primary" size="lg">
               View Work
             </Button>
-            <Button
-              href={`mailto:${profile.email}`}
-              variant="secondary"
-              size="lg"
-            >
-              Contact Me
+            <Button href={profile.whatsappUrl} variant="secondary" size="lg">
+              WhatsApp Me
             </Button>
           </div>
         </FadeIn>

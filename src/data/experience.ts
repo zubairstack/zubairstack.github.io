@@ -7,6 +7,7 @@ export interface ExperienceItem {
   highlights: string[];
 }
 
+/** Oldest → latest (top to bottom on the timeline). */
 export const experience: ExperienceItem[] = [
   {
     id: "freelance",
@@ -32,7 +33,7 @@ export const experience: ExperienceItem[] = [
   },
   {
     id: "flexlab",
-    role: "Tech Lead & Engineering Manager",
+    role: "Full Stack AI Engineer & Engineering Lead",
     company: "Flexlab",
     location: "Remote",
     period: "Jan 2023 – Present",

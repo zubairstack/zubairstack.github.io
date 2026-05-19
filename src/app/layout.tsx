@@ -1,4 +1,5 @@
 import { PersonSchema } from "@/components/PersonSchema";
+import { WhatsAppFloat } from "@/components/WhatsAppFloat";
 import { ThemeProvider } from "@/context/ThemeContext";
 import { profile } from "@/data/profile";
 import { Analytics } from "@vercel/analytics/next";
@@ -36,14 +37,13 @@ export const metadata: Metadata = {
   },
   description: profile.tagline,
   keywords: [
-    "Tech Lead",
-    "Engineering Manager",
+    "Full Stack AI Engineer",
+    "Engineering Lead",
     "Full Stack",
     "Web3",
     "Fintech",
     "AWS",
     "Next.js",
-    profile.location,
   ],
   authors: [{ name: profile.name, url: profile.siteUrl }],
   openGraph: {
@@ -82,6 +82,7 @@ export default function RootLayout({
       >
         <ThemeProvider>
           {children}
+          <WhatsAppFloat />
           <Analytics />
           <SpeedInsights />
         </ThemeProvider>

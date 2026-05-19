@@ -3,7 +3,7 @@ export interface Project {
   title: string;
   description: string;
   stack: string[];
-  href: string;
+  href?: string;
   external?: boolean;
 }
 
@@ -20,8 +20,6 @@ export const projects: Project[] = [
       "Hyperledger Fabric",
       "MetaMask",
     ],
-    href: "https://consortia-ax.com",
-    external: true,
   },
   {
     id: "blockhouse",
@@ -52,8 +50,6 @@ export const projects: Project[] = [
       "S3",
       "GitHub Actions",
     ],
-    href: "https://on.foundation",
-    external: true,
   },
   {
     id: "parryai",
